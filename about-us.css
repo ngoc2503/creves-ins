@@ -1,0 +1,60 @@
+
+.about-us{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+body#nav-aboutus .nav-aboutus{
+	background-color:#55A5D3;
+	display:block;
+}
+@media only screen and (max-width: 768px){
+	.about-us .color-legth{
+    margin-left: 46%;
+    width:30px;
+    height:5px;
+    background-color:#089EEF;
+}
+  #img-coo{
+        width:50%;
+        text-align: center;
+    }
+    #img-coo img{
+        width:100%;
+        object-fit: cover;
+        margin-bottom:5px;
+    } 
+    [class*="col-"] {
+  width: 100%;
+}  
+}
+@media only screen and (min-width: 768px){
+	.about-us .color-legth{
+    margin-left: 48.5%;
+    width:30px;
+    height:5px;
+    background-color:#089EEF;
+}
+   #img-coo{
+        width:25%;
+        text-align: center;
+    }
+    #img-coo img{
+        width:100%;
+        object-fit: cover;
+        margin-bottom:5px;
+    } 
+   
+}
+@media only screen and (min-width: 992px){
+    #img-coo{
+        width:25%;
+        text-align: center;
+    }
+    #img-coo img{
+        width:100%;
+        object-fit: cover;
+        margin-bottom:5px;
+    }
+    
+}
