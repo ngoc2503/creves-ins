@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px auto !important;
+}
+body#nav-contact .nav-contact{
+	background-color:#55A5D3;
+	display:block;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;}
+  .about-us{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-us .color-legth{
+    margin-left: 48.5%;
+    width:30px;
+    height:5px;
+    background-color:#089EEF;
+}
+.full-size input,textarea{
+    width:100%;
+    border-radius: 5px;
+}
+#button input{
+    background-color:yellow;
+    height:40px;
+    border-radius:5px;
+}
+#button{
+    float: right;
+    
+}
+#img-map{
+    margin-top: 20px;
+}
+ul.disc{
+	list-style-type:disc;
+	padding-left:0;
+	
+}
+@media only screen and (max-width: 768px){
+	ul.disc{
+		list-style-type:none;
+	}
+}
+@media (min-width:768px){
+	#button{
+		margin-right:15px;
+	}
+}
